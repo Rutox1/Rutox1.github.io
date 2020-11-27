@@ -1,0 +1,534 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: rgb(51, 51, 51);
+}
+
+.d-none{
+    display: block;
+}
+
+.container{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.s1{
+    height: 100vh;
+    background: url(../img/background.png) center center/cover no-repeat;
+    padding-top: 50px;
+    z-index: -10;
+}
+
+.s1_navmenu_navmenu{
+    display: flex;
+}
+
+.s1_navmenu_navbar{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.s1_navmenu_phone_number{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.s1_navmenu_phone_line{
+    background-color: #D1A954;
+    height: 2px;
+    margin-top: 3px;
+}
+
+.navbar_left {
+    margin-left: 63px;
+}
+
+.s1_navmenu_phone{
+    margin-left: 160px;
+}
+
+.s1_navmenu{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.s1_navmenu_navbar_link{
+    color: white;
+    transition: 0.2s all;
+}
+
+.s1_navmenu_navbar_link:hover{
+    color:rgb(160, 160, 160);
+    text-decoration: none;
+}
+
+.s1_content{
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+}
+
+.s1_content_1{
+    width: 540px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.s1_content_descr{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.s1_content_button{
+    width: 160px;
+    height: 50px;
+    background: #D1A954;
+    font-weight: bold;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 49px;
+    transition: 0.2s all;
+}
+
+.s1_content_2{
+    position: relative;
+    height: 505px;
+    width: 365px;
+    margin-left: 125px;
+}
+
+.s1_content_2_img2{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.s1_content_2_img1{
+    position: absolute;
+    z-index: 100;
+}
+
+.s2{
+    padding-top: 150px;
+}
+
+.s2_header{
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header_span{
+    color: #D1A954;
+}
+
+.together{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_theatre{
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about_theatre_descr{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.s2_descr{
+    width: 445px;
+}
+
+.s2_aboutnumber{
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.smth_aboutnumber{
+    position: absolute;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.armchair{
+    margin-top: 40px;
+    width: 70px;
+}
+
+.window{
+    width: 70px;
+    margin-top: 28px;
+}
+
+.underimage_text{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.section_2_image{
+    margin-left: 30px;
+}
+
+.s3_ourpost_header{
+    font-family: Open Sans Condensed;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 150px;
+}
+
+.s3_ourpost_img{
+    display: flex;
+    margin-left: -255px;
+    margin-top: 100px;
+}
+
+.s3_ourpost_img2{
+    background: url(../img/background_s3.png) center center/cover no-repeat;
+    width: 1110px;
+    height: 550px;  
+    margin-top: 150px;
+    padding-left: 190px;
+    display: flex;
+    align-items: center;
+}
+
+.s3_ourpost_years{
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+}
+
+.s3_ourpost_rating{
+    margin-left: 100px;
+}
+
+.s3_ourpost_rating_descr{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.s4_partners_header{
+    font-family: Open Sans Condensed;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 150px;
+}
+
+
+.flex-align{
+    display: flex;
+    justify-content: space-around;
+}
+
+.s4_partners_line1{
+    margin-top: 100px;
+}
+
+.s4_partners_line2{
+    margin-top: 60px;
+}
+
+.s5_maecenas_header{
+    font-family: Open Sans Condensed;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.s5_beMaecenas_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s5_beMaecenas_contacs{
+    display: flex;
+    flex-direction: column;
+}
+
+.s5_beMaecenas_number_1{
+    display: block;
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition:0.2s all;
+    text-decoration: none;
+}
+
+.s5_beMaecenas_info{
+    width: 730px;
+}
+
+.s5_beMaecenas_mainform_1{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #989898;
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 23px;
+    width: 180px;
+    height: 35px;
+}
+
+.s5_beMaecenas_mainform{
+    display: flex;
+}
+
+.s5_beMaecenas_mainform_line{
+    display: flex;
+}
+
+.s5_beMaecenas_mainform_2{
+    width: 310px;
+    height: 100px;
+    background: #444444;
+    border: 1px solid #616161;
+    font-weight: 600;
+    font-size: 12px;
+    color: #989898;
+    padding-left: 15px;
+}
+
+.s5_beMaecenas_subform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.s5_beMaecenas_subform_text{
+    width: 390px;
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #989898;
+}
+
+.s5_beMaecenas_subform_button{
+    font-family: Open Sans Condensed;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: #D1A954;;
+    color: #FFFFFF;
+    width: 190px;
+    height: 50px;
+    margin-left: 150px;
+    transition: 0.2s all;
+}
+
+.ml30{
+    margin-left: 30px;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+
+.mt25{
+    margin-top: 25px;
+}
+
+.ml25{
+    margin-left: 25px;
+}
+
+.s5_footer_line{
+    height: 1px;
+    margin-top: 80px;
+    background-color: #565656;
+}
+
+.the_end_together{
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans;
+    font-size: 12px;
+    color: #989898;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.arrow{
+    width: 100%;
+    height: 100%;
+}
+
+.dialog_with_operator_main{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;   
+}
+
+.dialog_with_operator{
+    width: 50px;
+    height: 50px;
+}
+
+.s1_content_button:hover{
+    background-color: #9d7f3f;
+}
+
+.s5_beMaecenas_subform_button:hover{
+    background-color: #9d7f3f;
+}
+
+.s5_beMaecenas_number_1:hover{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        width: 65%;
+    }
+
+    .s1_navmenu{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .s1_navmenu_phone{
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        margin-top: 50px;
+    }
+
+    .s1_navmenu_navbar{
+        font-size: 14px;
+    }
+
+    .s1_content_2{
+        display: none;
+    }
+
+    .section_2_image{
+        display: none;
+    }
+
+    .s2_aboutnumber{
+        margin-left: 30px;
+    }
+
+    .s3_ourpost_img{
+        overflow: hidden;
+        margin-left: 0;
+    }
+
+    .s3_ourpost_img2{
+        width: 992px;
+        margin-left: -38%;
+        overflow: hidden;
+    }
+
+    .d-none{
+        display: none;
+    }
+
+    .s5_beMaecenas_main{
+        flex-direction: column-reverse;
+    }
+
+    .s5_beMaecenas_mainform_1{
+        width: 160px;
+    }
+
+    .s5_beMaecenas_mainform_2{
+        width: 260px;
+    }
+
+    .s5_beMaecenas_info{
+        width: 640px;
+    }
+
+    .s5_beMaecenas_contacts{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mt25_w992{
+        margin-top: 25px;
+    }
+
+    .dialog_with_operator_main{
+        display: none;
+    }
+}
+
