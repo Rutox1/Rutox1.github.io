@@ -532,3 +532,35 @@ h1{
     }
 }
 
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        max-width: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .s1_navmenu{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .s1{
+        height: 65vh;
+    }
+
+    .s1_navmenu_navbar{
+        font-size: 10px;
+    }
+
+    .s3_ourpost_img2{
+        width: 768px;
+        margin-left: -8%;
+    }
+
+    .s5_beMaecenas_number_1{
+        font-size: 15px;
+    }
+}
+
